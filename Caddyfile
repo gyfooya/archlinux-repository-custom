@@ -1,0 +1,9 @@
+# ======================================================
+# Arch Linux repository for repo.xxx.zz
+# ======================================================
+
+repo.xxx.zz {
+    root * /srv/http/REPOSITORY
+    file_server browse
+    encode gzip
+}
